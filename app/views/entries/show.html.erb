@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Term:</strong>
+  <%= @entry.term %>
+</p>
+
+<p>
+  <strong>Sources:</strong>
+  <%= @entry.sources %>
+</p>
+
+<p>
+  <strong>Translation:</strong>
+  <%= @entry.translation %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @entry.comments %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
